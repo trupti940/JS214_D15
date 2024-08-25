@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#movieList {
+    margin-bottom: 20px;
+}
+
+.movie-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.movie-item:hover {
+    background-color: #eaeaea;
+}
+
+#movieDetails {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
